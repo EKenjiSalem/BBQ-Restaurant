@@ -1,0 +1,455 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title> Mr. Saucey's </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@700&display=swap" rel="stylesheet">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+  <!-- Swiper JS -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/css/lightgallery.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <!-- Header -->
+    <section class="bbq-header">
+        <a href="#home" class="bbq-logo"><i class="fa-solid fa-bottle-droplet"></i>Mr. Saucey's </a> 
+        <nav class="navbar">
+            <a href="#home"> Home </a>
+            <a href="#about"> About </a>
+            <a href="menu.html"> Menu </a>
+            <a href="#bbq-blogs"> Blog </a>
+            <a href="#bbq-order-form" class="order" > Order </a>
+        </nav>
+        <div id="menu-btn" class="fas fa-bars"></div>
+    </section>
+
+    <!-- Home -->
+    <section class="home" id="home">
+      <div class="home-info">
+        <h3>Mr. Saucey's</h3>
+        <p> Grilling the absolute best BBQ in the Town  </p>
+        <a href="menu.html" class="btn-1"> Menu </a>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section class="about" id="about">
+      <div class="image">
+        <img src="images/bbq4.jpg" alt="">
+      </div>
+      <div class="about-title">
+        <h3 class="title"> Welcome to Mr. Saucey's </h3>
+        <p>  Here at Mr.Saucey's we grill the best bbq in the town. <br> We grill fresh bbq daily in a state of the art smoker.</p>
+        <a href="menu.html" class="btn"> Menu </a>
+      </div>
+     </section> 
+
+ 
+  <!-- Popular Foods -->
+  <section class="popular-bbq" id="popular-bbq">
+  <div class="popular-bbq-heading">
+    <h3> Popular Dishes</h3>
+  </div>
+  <div class="swiper bbq-popular-slider">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide slide" data-target="bbq-1">
+        <img src="images/rsz_bbq1.jpg" alt="">
+        <h3> Meat Combo Plater </h3>
+        <div class="price"> $29.99</div>
+      </div>
+      <div class="swiper-slide slide" data-target="bbq-2">
+        <img src="images/bbq6.jpg" alt="">
+        <h3> Mac n' Cheese </h3>
+        <div class="price"> $8.99</div>
+      </div>
+      <div class="swiper-slide slide" data-name="bbq-3">
+        <img src="images/ribs.jpg" alt="">
+        <h3> Slab of Ribs </h3>
+        <div class="price"> $15.99</div>
+      </div>
+      <div class="swiper-slide slide" data-name="bbq-4">
+        <img src="images/bb7.jpg" alt="">
+        <h3> Beef n' Baked Beans Platter</h3>
+        <div class="price"> $12.99</div>
+      </div>
+    </div>
+    <div class="swiper-pagination"></div>
+  </div>
+  </section>
+
+  <section class="bbq-popup-container">
+     <i class="fa-solid fa-xmark"></i>
+    <div id="close-preview" class="fas fa-times"></div>
+    <div class="bbq-preview" data-target="bbq-1">
+      <img src="images/rsz_bbq2.jpg" alt="">
+      <h3> Meat Combo Platter </h3>
+      <div class="price">$29.99</div>
+      <a href="#" class="btn"> Buy Now </a>
+    </div>
+    <div class="bbq-preview" data-target="bbq-2">
+      <img src="images/rsz_bbq6.jpg" alt="">
+      <h3> Mac n' Cheese  </h3>
+      <div class="price">$3.99</div>
+      <a href="#" class="btn"> Buy Now </a>
+    </div>
+    <div class="bbq-preview" data-target="bbq-3">
+      <img src="images/rsz_ribs.jpg" alt="">
+      <h3> BBQ Slab of Ribs </h3>
+      <div class="price">$15.99</div>
+      <a href="#" class="btn"> Buy Now </a>
+    </div>
+    <div class="bbq-preview" data-target="bbq-4">
+      <img src="images/rsz_bb7.jpg" alt="">
+      <h3> Beef n Baked Bean Plate </h3>
+      <div class="price">$15.99</div>
+      <a href="#" class="btn"> Buy Now </a>
+    </div>
+  </section>
+
+  <!-- Gallery -->
+  <section class="bbq-gallery" id="bbq-gallery">
+    <div class="bbq-gallery-heading">
+      <h3> BBQ Gallery </h3>
+    </div> 
+    <div class="bbq-gallery-container">
+      <a href="images/ribgrill.jpg" class="gallery-link">
+        <img src="images/ribgrill.jpg" alt="">
+        <div class="icon"><i class=""></i></div>
+      </a>
+      <a href="images/flames.jpg" class="gallery-link">
+        <img src="images/flames.jpg" alt="">
+        <div class="icon"><i class=""></i></div>
+      </a>
+      <a href="images/bbqpatty.jpg" class="gallery-link">
+        <img src="images/bbqpatty.jpg" alt="">
+        <div class="icon"><i class=""></i></div>
+      </a>
+        <a href="images/bbqarea.jpg" class="gallery-link">
+          <img src="images/bbqarea.jpg" alt="">
+          <div class="icon"><i class=""></i></div>
+        </a>
+        <a href="images/bbqfood.jpg" class="gallery-link">
+          <img src="images/bbqfood.jpg" alt="">
+          <div class="icon"><i class=""></i></div>
+        </a>
+        <a href="images/bbqbar.jpg" class="gallery-link">
+          <img src="images/bbqbar.jpg" alt="">
+          <div class="icon"><i class=""></i></div>
+        </a>
+    </div>
+  </section>
+
+  <!-- Menu -->
+  <section class="bbq-menu" id="bbq-menu">
+    <div class="bbq-menu-heading">
+      <h3> Menu </h3>
+    </div> 
+        <div class="bbq-menu-wrapper"> 
+          <h3 class="title"> Lunch </h3>
+          <div class="bbq-menu-container">
+            <div class="bbq-menu-content">
+              <div class="info">
+            <h3> Beef Brisket Plate </h3>
+            <P>  Slow grilled Beef Brisket with 1 side.  Choice of medium, mild, or hot sauce.   </P>
+          </div>
+          <div class="price"> $12.99 </div>
+        </div>  
+        <div class="bbq-menu-content">
+          <div class="info">
+          <h3> Smoked Chicken Plate </h3>
+         <P>  Slow grilled Chicken legs with 1 side. Choice of medium, mild, or hot sauce.  </P>
+        </div>
+       <div class="price"> $12.99 </div>
+      </div> 
+      <div class="bbq-menu-content">
+        <div class="info">
+       <h3> Beef Link Plate </h3>
+       <P>  House made beef links with 1 side. Choice of medium, mild, or hot sauce.  </P>
+       </div>
+      <div class="price"> $10.99 </div>
+    </div> 
+    <div class="bbq-menu-content">
+    <div class="info">
+    <h3> BBQ Rib Plate </h3>
+    <P> Our most popular plate. Slow grilled ribs with 1 side. Choice of medium, mild, or hot sauce.  </P>
+    </div>
+    <div class="price"> $14.99 </div>
+    </div> 
+    <div class="bbq-menu-content">
+      <div class="info"> 
+      <h3> Chicken n' Waffles Plate </h3>
+      <P> Home style waffles with 2 piece fried chicken with 1 side. Choice of medium, mild, or hot sauce.  </P>
+      </div>
+      <div class="price"> $12.99 </div>
+      </div> 
+      <div class="bbq-menu-content">
+      <div class="info">
+    <h3> BBQ Sandwhiches </h3>
+    <P>  Slow cooked choice of meats smoothered in Mr. Saucey's sauce. Choice of medium, mild, or hot sauce.  </P>
+    </div>
+    <div class="price"> $12.99 </div>
+      </div>  
+      </div>
+    </div>
+
+  <div class="bbq-menu-wrapper">
+    <h3 class="title"> Dinner </h3>
+    <div class="bbq-menu-container">
+      <div class="bbq-menu-content">
+        <div class="info">
+          <h3> Beef Brisket Plate </h3>
+          <P> Slow grilled Beef Brisket with 2 sides.  Choice of medium, mild, or hot sauce.   </P>
+      </div>
+    <div class="price"> $16.99 </div>
+    </div>  
+  <div class="bbq-menu-content">
+    <div class="info"> 
+      <h3> Smoked Chicken Plate </h3>
+      <P>  Slow grilled Chicken legs with 2 sides. Choice of medium, mild, or hot sauce.  </P>
+    </div>
+    <div class="price"> $15.99 </div>
+    </div> 
+    <div class="bbq-menu-content">
+    <div class="info"> 
+      <h3> Beef Link Plate </h3>
+      <P>  House made beef links with 2 sides.  Choice of medium, mild, or hot sauce.  </P>
+      </div>
+    <div class="price"> $12.99 </div>
+    </div> 
+    <div class="bbq-menu-content">
+    <div class="info"> 
+      <h3> Chicken n' Waffles Plate </h3>
+      <P> Homestyle waffles with 3 piece fried chicken with 2 sides. Choice of medium, mild, or hot sauce.  </P>
+    </div>
+    <div class="price"> $17.99 </div>
+    </div> 
+    <div class="bbq-menu-content">
+    <div class="info">
+      <h3> BBQ Sandwhiches </h3>
+      <P>  Slow cooked choice of meats smoothered in Mr. Saucey's sauce with 2 sides. Choice of medium, mild, or hot sauce.  </P>
+    </div>
+    <div class="price"> $14.99 </div>
+    </div> 
+    <div class="bbq-menu-content">
+    <div class="info">
+      <h3> BBQ Rib Plate </h3>
+      <P>  Our most popular plate. Slow grilled ribs with 2 sides. Choice of medium, mild, or hot sauce.  </P>
+    </div>
+    <div class="price"> $16.99 </div>
+      </div>  
+     </div>
+    </div>
+
+    <div class="bbq-menu-wrapper">
+      <h3 class="title"> Sides </h3>
+      <div class="bbq-menu-container">
+        <div class="bbq-menu-content">
+        <div class="info">
+        <h3> Potatoe Salad </h3>
+        <P> Homestyle potatoe salad with authentic spices. Hardboiled egg extra $.75 cents </P>
+      </div>
+      <div class="price"> $2.99 </div>
+    </div>  
+    <div class="bbq-menu-content">
+  <div class="info">
+    <h3> Collard Greens </h3>
+    <P>  Freshly Cooked collard greens organically grown. Locally sourced from farm. </P>
+    </div>
+    <div class="price"> $3.99 </div>
+    </div> 
+    <div class="bbq-menu-content">
+    <div class="info">
+      <h3> Baked Beans </h3>
+      <P> Slow cooked baked beans with authentic spices, topped with cheese optional. </P>
+    </div>
+    <div class="price"> $2.99 </div>
+    </div> 
+    <div class="bbq-menu-content">
+    <div class="info">
+      <h3> Mac n' Cheese </h3>
+      <P> Creamy mac n' cheese, with real cheese. Locally sourced from farm. </P>
+    </div>
+    <div class="price"> $3.99 </div>
+    </div> 
+    <div class="bbq-menu-content">
+    <div class="info">
+      <h3> Corn Bread </h3>
+      <P> Homestyle thick corn bread made with real corn meal and corn, topped with butter. </P>
+    </div>
+    <div class="price"> $1.99 </div>
+    </div> 
+    <div class="bbq-menu-content">
+      <div class="info">
+      <h3> Drinks </h3>
+      <P> Coke, Sprite, Orange, Grape, Fruit Punch, Cherry Lemonade - S/M/L </P>
+    </div>
+    <div class="price"> $1.75 </div>
+     </div>  
+    </div>
+    </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Order Now -->
+<section id="bbq-order-form" class="bbq-order-form">
+  <div class="order-form-heading">
+    <h3> Online Ordering </h3>
+  </div>
+  <form action="">
+    <div class="form-container">
+      <div class="order-form-wrapper">
+        <div class="bbq-order">
+          <span> Full Name </span>
+          <input type="text" placeholder="Enter Your Name">
+        </div>
+        <div class="bbq-order">
+          <span> Type of Food </span>
+          <input type="text" placeholder="Type of BBQ">
+        </div>
+        <div class="bbq-order">
+          <span> Order Details </span>
+          <input type="text" placeholder="Any Food Specifics?">
+        </div>
+        <div class="bbq-order">
+          <span> Messages </span>
+          <textarea name="" placeholder="Type a Message" id="" cols="30" rows="10"></textarea>
+        </div>
+      </div>
+      <div class="order-form-wrapper">
+        <div class="bbq-order">
+          <span> Phone Number </span>
+          <input type="number" placeholder="Enter Your Phone Number">
+        </div>
+        <div class="bbq-order">
+          <span> Quantity </span>
+          <input type="number" placeholder="How Many?">
+        </div>
+        <div class="bbq-order">
+          <span> Pick-Up Day & Time </span>
+          <input type="datetime-local">
+        </div>
+        <div class="bbq-order">
+          <span> Our Address </span>
+          <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d201877.50807108186!2d-122.23530790000001!3d37.75871754999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80857d8b28aaed03%3A0x71b415d535759367!2sOakland%2C%20CA!5e0!3m2!1sen!2sus!4v1655598679332!5m2!1sen!2sus"
+           style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+      </div>
+    </div>
+    <input type="submit" value="Order Now" class="order-btn">
+    </form>
+  </section>
+
+<!-- Blogs -->
+<section class="bbq-blogs" id="bbq-blogs">
+  <div class="bbq-blog-heading">
+    <h3> BBQ Blog Post </h3>
+  </div>
+  <div class="swiper bbq-blogs-slider">
+    <div class="swiper-wrapper">
+
+      <div class="swiper-slide slide">
+        <div class="image">
+          <img src="images/bbqsign.jpg" alt="">
+        </div>
+        <div class="bbq-blog-wrapper">
+          <div class="icon">
+            <a href="#"> <i class="fas fa-calendar"></i> June 21, 2022 </a>
+            <a href="#"> <i class="fas fa-calendar"></i> By Admin </a>
+          </div>
+          <a href="#" class="title"> Blog Post </a>
+          <p> This is the best blog in the city, so read a post and comment on the forum. </p>
+          <a href="#" class="btn"> Read More </a>
+        </div>
+      </div>
+      <div class="swiper-slide slide">
+        <div class="image">
+          <img src="images/bbqlogo.jpg" alt="">
+        </div>
+        <div class="bbq-blog-wrapper">
+          <div class="icon">
+            <a href="#"> <i class="fas fa-calendar"></i> June 21, 2022 </a>
+            <a href="#"> <i class="fas fa-calendar"></i> By Admin </a>
+          </div>
+          <a href="#" class="title"> Blog Post </a>
+          <p> This is the best blog in the city, so read a post and comment on the forum. </p>
+          <a href="#" class="btn"> Read More </a>
+        </div>
+      </div>
+      <div class="swiper-slide slide">
+        <div class="image">
+          <img src="images/bbqfreak.jpg" alt="">
+        </div>
+        <div class="bbq-blog-wrapper">
+          <div class="icon">
+            <a href="#"> <i class="fas fa-calendar"></i> June 21, 2022 </a>
+            <a href="#"> <i class="fas fa-calendar"></i> By Admin </a>
+          </div>
+          <a href="#" class="title"> Blog Post </a>
+          <p> This is the best blog in the city, so read a post and comment on the forum. </p>
+          <a href="#" class="btn"> Read More </a>
+        </div>
+      </div>
+    </section>
+
+
+<!-- Footer -->
+<footer class="bbq-footer">
+  <div class="footer-left">
+    <h3>Mr. <span>Saucey's</span></h3>
+    <p class="footer-links">
+      <a href="home.html" class="link-1">Home</a>
+      <a href="about.html">About</a>
+      <a href="menu.html">Menu</a>
+      <a href="blogs.html">Blog</a>
+      <a href="order.html">Order</a>
+    </p>
+    <p class="copyright">Copyright © 2022</p>
+  </div>
+  <div class="footer-center">
+    <div>
+      <i class="fa fa-map-marker"></i>
+      <p><span> 777 International Blvd. </span> Oakland, CA</p>
+    </div>
+    <div>
+      <i class="fa fa-phone"></i>
+      <p> Direct: 1-415-777-7777</p>
+    </div>
+    <div>
+      <i class="fa fa-envelope"></i>
+      <p><a href="mailto:support@company.com">mrsauceys@gmail.com</a></p>
+    </div>
+  </div>
+  <div class="footer-right">
+    <p class="footer-company-about">
+      <span> About The Restaurant </span>
+      This is the best bbq shop in the town. We grill fresh food daily in the state of the art smoker.
+    </p>
+    <div class="footer-icons">
+      <a href="#"><i class="fa-brands fa-facebook"></i></a>
+      <a href="#"><i class="fa-brands fa-twitter"></i></a>
+      <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+      <a href="#"><i class="fa-brands fa-instagram"></i></a>
+    </div>
+  </div>
+</footer>
+
+<!-- Script Tags -->
+<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/js/lightgallery.min.js"></script>
+<script src="script.js"> </script>
+<script> 
+lightGallery(document.querySelector('.gallery .gallery-container'));
+</script>
+</body>
+</html>
